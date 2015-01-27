@@ -5,6 +5,9 @@ Inspired by <a href="http://www.reddit.com/r/dailyprogrammer/comments/2t3m7j/201
 
 ### Usage
 
+Note: The correct answer is dependent on if the input is coherent. If not the program will behave unpredictably. 
+Basically, you must be sure that the number you entered is in the correct base. The program will not know if the input doesn't make sense.
+
 Program takes 3 inputs from the command line:
 
 1.  Number you want to convert
