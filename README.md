@@ -15,6 +15,6 @@ Program takes 3 inputs from the command line:
 ### Sample run
 
 `$ python3.4 base_converter.py 7211 -10 10`
->> `Input: 7211 base -10.`
+> `Input: 7211 base -10.`
 
->> `Output: -6809 base 10.`
+> `Output: -6809 base 10.`
