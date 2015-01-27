@@ -10,6 +10,7 @@ def convertStrToInt(numString):
 
 	l = []
 
+	# If numString is prefixed with '-', remove it first then parse out '0x'.
 	if numString[0] == '-':
 		if numString[1] == '0' and (numString[2] == 'x' or numString[2] == 'X'):
 			numString = numString[3:]
@@ -59,7 +60,7 @@ def convertToBase10(numList, base):
 def convertToAnyBase(n, base):
 
 	"""
-	Converts n to whichever base is indicated. Algorithm can be found:
+	Converts n to whichever base is indicated. Algorithm can be found here:
 	https://en.wikipedia.org/wiki/Negative_base#Calculation
 	"""
 
